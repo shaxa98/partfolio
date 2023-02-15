@@ -19,7 +19,7 @@ body {
   left: 0;
   width: 100%;
   background-color: white;
-  box-shadow: 0px 3px 15px 0px rgb(0 0 0 /10%)
+  box-shadow: 0px 3px 15px 0px rgb(0 0 0 /10%);
   z-index: 1;
 }
 
@@ -308,6 +308,7 @@ client-item-name {
   width: 100%;
   background: rgba(19,69,230,0.9);
   visibility: hidden;
+  z-index: 1;
 }
 .portfolio-item-info {
   position: absolute;
@@ -316,6 +317,7 @@ client-item-name {
   opacity: 0;
   color: rgb(255, 253, 250);
   visibility: hidden;
+  z-index: 1;
 }
 .portfolio-item-info a {
   color:   white;
