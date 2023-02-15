@@ -180,6 +180,8 @@ a {
 }
 .blur-line {
   display: inline-block;
+  top: -2;
+  position: relative;
   margin-left: 5px;
   width: 80px;
   height: 4px;
@@ -276,6 +278,29 @@ client-item-name {
 .portfolio {
   padding: 100px o;
 }
+.portfolio-filters {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 50px;
+
+}
+.portfolio-filters li {
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.portfolio-filters li.active {
+  color:#1345e6;
+}
+.portfolio-filters li:hover {
+  color: #1345e6;
+}
+
+
 .portfolio-items {
   position: relative;
   margin-top: 50px;
@@ -288,12 +313,18 @@ client-item-name {
   padding: 10px;
   box-sizing: border-box;
 }
+.portfolio-item1 {
+  padding-left: 0;
+}
 
 .portfolio-item-2{
    position: absolute;
    top: 0;
    right: 0;
 
+}
+.portfolio-item3 {
+  padding-left: 0;
 }
 
 
