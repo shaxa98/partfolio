@@ -20,6 +20,7 @@ body {
   width: 100%;
   background-color: white;
   box-shadow: 0px 3px 15px 0px rgb(0 0 0 /10%)
+  z-index: 1;
 }
 
 .main-header-brand {
@@ -275,9 +276,29 @@ client-item-name {
 .portfolio {
   padding: 100px o;
 }
+.portfolio-items {
+  position: relative;
+  margin-top: 50px;
+}
 .portfolio-item {
   position: relative;
   display: inline-block;
+  cursor: pointer;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.portfolio-item-2{
+   position: absolute;
+   top: 0;
+   right: 0;
+
+}
+
+
+.portfolio-item-image {
+  width: 100%;
 }
 .portfolio-item-overlay {
   position: absolute;
@@ -285,15 +306,27 @@ client-item-name {
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(19,69,230.0.9);
+  background: rgba(19,69,230,0.9);
+  visibility: hidden;
 }
 .portfolio-item-info {
   position: absolute;
   bottom: 44px;
   left: 80px;
   opacity: 0;
-  color: wheat;
+  color: rgb(255, 253, 250);
+  visibility: hidden;
 }
 .portfolio-item-info a {
-  color: white;
+  color:   white;
+  text-decoration: none;
+}
+.portfolio-item:hover .portfolio-item-overlay {
+  visibility: visible;
+  top: 20px;
+  left: 20px;
+}
+.portfolio-item:hover .portfolio-item-info {
+  bottom:  24px;
+  left: 60px;
 }
