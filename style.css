@@ -271,3 +271,29 @@ client-item-name {
 .client-item-rate .disabled {
   color: #AEB9BE;
 }
+/* Portfolio section styles*/
+.portfolio {
+  padding: 100px o;
+}
+.portfolio-item {
+  position: relative;
+  display: inline-block;
+}
+.portfolio-item-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(19,69,230.0.9);
+}
+.portfolio-item-info {
+  position: absolute;
+  bottom: 44px;
+  left: 80px;
+  opacity: 0;
+  color: wheat;
+}
+.portfolio-item-info a {
+  color: white;
+}
