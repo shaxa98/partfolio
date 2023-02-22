@@ -384,6 +384,9 @@ client-item-name {
   margin-right: 3%;
   box-sizing: border-box;
 }
+.blog-item:hover .blog-item-info {
+  background-color: white;
+}
 
 .blog-item-image img {
   width:100%;
