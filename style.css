@@ -371,3 +371,16 @@ client-item-name {
   bottom:  24px;
   left: 60px;
 }
+/*Blog section styles */
+.blog {
+  padding-top: 100px;
+}
+.blog-items {
+  margin-top: 50px;
+}
+.blog-item {
+  display: inline-block;
+  width: 30%;
+  margin-right: 3%;
+  box-sizing: border-box;
+}
