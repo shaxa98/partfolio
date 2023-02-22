@@ -1,5 +1,6 @@
 /*core styles*/
 body {
+  margin: 0;
   font-family: sans-serif;
 }
 .containar {
@@ -13,6 +14,13 @@ body {
   clear: both;
 }
 /*main header styles */
+.main-banner {
+  background: url("./images/portfolio3.jpeg") no-repeat top center;
+  background-position: center;
+  background-size: cover;
+  min-height: 890px;
+  
+}
 .main-header {
   position: fixed;
   top: 0;
