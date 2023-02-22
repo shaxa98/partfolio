@@ -384,3 +384,43 @@ client-item-name {
   margin-right: 3%;
   box-sizing: border-box;
 }
+
+.blog-item-image img {
+  width:100%;
+}
+.blog-item-info {
+  background-color: #F8FAFF;
+  padding: 10px;
+  color: #797979;
+}
+.blog-item-main-info span {
+  font-size: 14px;
+  margin-right: 30px;
+}
+.blog-item-info i {
+  margin-right: 5px; 
+}
+
+.blog-item-title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #05364d;
+  font-weight: 700;
+}
+.blog-item-description {
+  line-height: 27px;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.blog-item-learn-more {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #05364d;
+  cursor: pointer;
+}
+
+.blog-item-learn-more:hover {
+color: #ed239f;
+}
