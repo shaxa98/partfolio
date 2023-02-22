@@ -427,3 +427,12 @@ client-item-name {
 .blog-item-learn-more:hover {
 color: #ed239f;
 }
+/* Partners section styles*/
+.partners {
+  padding-top:100px;
+
+}
+.partner {
+  display: inline-block;
+  padding;0 30px;
+}
